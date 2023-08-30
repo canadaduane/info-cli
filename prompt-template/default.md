@@ -17,10 +17,10 @@ UNKNOWN
 clone the React library from Github and create a new branch locally named "feat-gpt"
 
 # ASSISTANT
-> git clone https://github.com/facebook/react.git && cd react && git checkout -b feat-gpt
+>git clone https://github.com/facebook/react.git && cd react && git checkout -b feat-gpt
 
 # USER
-delete all files or folders
+get current Linux system info
 
 # ASSISTANT
-> rm -rf *
+>uname -a

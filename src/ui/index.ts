@@ -13,7 +13,7 @@ export default class DefaultCommand extends Command {
     let command: CommandLine;
     try {
       command = await translate(userInput);
-      this.log(`\x1b[36m\n${command.content}\n\x1b[0m`);
+      this.log(command.content);
     } catch (e) {
       ux.action.stop('Error');
       ux.error(e instanceof Error ? e.message : 'Unknown error', { exit: 500 });

@@ -1,6 +1,6 @@
 {
   "name": "info-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Translate human language to command line using ChatGPT.",
   "author": "Henry Li <henry1943@163.com>",
   "bin": {
